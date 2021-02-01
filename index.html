@@ -1,0 +1,370 @@
+<html>
+  <head>
+    <title>nlo-portfolio</title>
+    <meta charset='UTF-8'>
+    <meta http-equiv='Access-Control-Allow-Origin' content=''>
+    <script type='text/javascript' src='style/lib/jquery-3.6.0.min.js'></script>
+    <script type='text/javascript' src='style/lib/bootstrap-4.6.0.min.js'></script>
+    <script type='text/javascript' src='style/style.js'></script>
+    <link rel='stylesheet' href='style/style.css'>
+    <link rel='stylesheet' href='style/lib/bootstrap-4.6.0.min.css'>
+  </head>
+
+  <body>
+    <div class='container-fluid'>
+      <a href='https://github.com/nlo-portfolio' target='_blank' class='links'>
+        <div id='title' class='row title justify-content-center h1 p-4 m-auto border-bottom border-white'>
+          nlo-portfolio
+        </div>
+      </a>
+  
+    
+      <div id='languages' class='row justify-content-center m-auto h3 px-2 py-1 border-bottom border-white'>
+        <div class='col-12 col-lg-10'>
+          <div class='row w-100 justify-content-center m-auto'>
+            <div class='col-3 line-item' style='max-width: 100%;'>
+              <a href='https://github.com/nlo-portfolio?tab=repositories&q=&type=&language=python&sort=name' target='_blank' class='links'>
+                Python
+                <div class='row justify-content-center'>
+                  <img src='style/images/languages/python.png' class='icons'>
+                </div>
+              </a>
+            </div>
+            <div class='col-3 line-item' style='max-width: 100%;'>
+              <a href='https://github.com/nlo-portfolio?tab=repositories&q=&type=&language=ruby&sort=name' target='_blank' class='links'>
+                Ruby
+                <div class='row justify-content-center'>
+                  <img src='style/images/languages/ruby.png' class='icons'>
+                </div>
+              </a>
+            </div>
+            <div class='col-3 line-item' style='max-width: 100%;'>
+              <a href='https://github.com/nlo-portfolio?tab=repositories&q=&type=&language=java&sort=name' target='_blank' class='links'>
+                Java
+                <div class='row justify-content-center'>
+                  <img src='style/images/languages/java.png' class='icons'>
+                </div>
+              </a>
+            </div>
+            <div class='col-3 line-item' style='max-width: 100%;'>
+              <a href='https://github.com/nlo-portfolio?tab=repositories&q=&type=&language=javascript&sort=name' target='_blank' class='links'>
+                JavaScript
+                <div class='row justify-content-center'>
+                  <img src='style/images/languages/javascript.png' class='icons'>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div id='carousel' class='row justify-content-center mb-3' style='contain:content;'>
+        <div class='col-10 col-md-8 col-lg-6'>
+          <div id='code-carousel' class='carousel slide' data-interval='8000' data-touch='true' data-ride='carousel'>
+            <ol id='carousel-indicators' class='carousel-indicators'>
+              <li data-target='#code-carousel' data-slide-to='0' class='active'></li>
+              <li data-target='#code-carousel' data-slide-to='1'></li>
+              <li data-target='#code-carousel' data-slide-to='2'></li>
+              <li data-target='#code-carousel' data-slide-to='3'></li>
+              <li data-target='#code-carousel' data-slide-to='4'></li>
+              <li data-target='#code-carousel' data-slide-to='5'></li>
+              <li data-target='#code-carousel' data-slide-to='6'></li>
+              <li data-target='#code-carousel' data-slide-to='7'></li>
+              <li data-target='#code-carousel' data-slide-to='8'></li>
+              <li data-target='#code-carousel' data-slide-to='9'></li>
+            </ol>
+            <div class='carousel-inner'>
+              <div class='carousel-item active'>
+                <a href='https://github.com/nlo-portfolio/weatherscape' target='_blank' rel='external'>
+                  <img src='style/images/programs/weatherscape.png' class='d-block img-fluid' alt='WeatherScape (JavaScript)' title='WeatherScape (JavaScript)'>
+                </a>
+                <div id='carousel-caption' class='carousel-caption'>
+                  <h5>WeatherScape</h5>
+                  (JavaScript)<br>
+                  <p>
+                    Displays a 3D Carousel supplied with data from the National Weather Service for a seven day forecast.<br>
+                    Features location auto-completion using city/state or zipcode as well as automatic forecast refresh.<br>
+                    <div class='row'>
+                      <div class='col-6 text-right'>
+                        <a href='https://github.com/nlo-portfolio/weatherscape' target='_blank' rel='external' class='pr-4'>SOURCE</a>
+                      </div>
+                      <div class='col-6 text-left'>
+                        <a href='https://nlo-portfolio.github.io/weatherscape' target='_blank' rel='external' class='pl-4'>LIVE DEMO</a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class='carousel-item'>
+                <a href='https://github.com/nlo-portfolio/ana' target='_blank' rel='external'>
+                  <img src='style/images/programs/ana.png' class='d-block img-fluid' alt='ANA (Python)' title='ANA (Python)'>
+                </a>
+                <div id='carousel-caption' class='carousel-caption'>
+                  <h5>ANA</h5>
+                  (Python)<br>
+                  <p>
+                    ANA (Alpha Numeric Augmenter) modifies an existing wordlist to include 'munged passwords', such as when letters are replaced
+                    with similar-looking numbers. Wordlists are augmented according to the specified substitutions: 5 -> S, 4 -> A, B -> 8, etc. (configurable).<br>
+                    <div class='row'>
+                      <div class='col-6 text-right'>
+                        <a href='https://github.com/nlo-portfolio/ana' target='_blank' rel='external' class='pr-4'>SOURCE</a>
+                      </div>
+                      <div class='col-6 text-left'>
+                        <a href='https://github.com/nlo-portfolio/ana/blob/master/docker-compose.yml' target='_blank' rel='external' class='pl-4'>DOCKER</a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class='carousel-item'>
+                <a href='https://github.com/nlo-portfolio/active-backup' target='_blank' rel='external'>
+                  <img src='style/images/programs/active-backup.png' class='d-block img-fluid' alt='Active Backup (Ruby)' title='Active Backup (Ruby)'>
+                </a>
+                <div id='carousel-caption' class='carousel-caption'>
+                  <h5>Active Backup</h5>
+                  (Ruby)<br>
+                  <p>
+                    While perhaps not visually impressive, this backup application packs a lot of features:<br>
+                    SSH, FTP, multi-file/folder archival (tar), compression and encryption (AES), public-key authentication as well as a number of 
+                    other configurable options.<br>
+                    <div class='row'>
+                      <div class='col-6 text-right'>
+                        <a href='https://github.com/nlo-portfolio/active-backup' target='_blank' rel='external' class='pr-4'>SOURCE</a>
+                      </div>
+                      <div class='col-6 text-left'>
+                        <a href='https://github.com/nlo-portfolio/active-backup/blob/master/docker-compose.yml' target='_blank' rel='external' class='pl-4'>DOCKER</a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class='carousel-item'>
+                <a href='https://github.com/nlo-portfolio/port-scanner' target='_blank' rel='external'>
+                  <img src='style/images/programs/port-scanner.png' class='d-block img-fluid' alt='Port Scanner (Java)' title='Port Scanner (Java)'>
+                </a>
+                <div id='carousel-caption' class='carousel-caption'>
+                  <h5>Port Scanner</h5>
+                  (Java)<br>
+                  <p>
+                    This network scanner is capable of taking in a range of hosts and ports to scan from the command line.<br>
+                    Scans in stealth mode in order to attempt evasion of older IDS/IPS appliances.
+                    <div class='row'>
+                      <div class='col-6 text-right'>
+                        <a href='https://github.com/nlo-portfolio/port-scanner' target='_blank' rel='external' class='pr-4'>SOURCE</a>
+                      </div>
+                      <div class='col-6 text-left'>
+                        <a href='https://github.com/nlo-portfolio/port-scanner/blob/master/docker-compose.yml' target='_blank' rel='external' class='pl-4'>DOCKER</a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class='carousel-item'>
+                <a href='https://github.com/nlo-portfolio/notekeep' target='_blank' rel='external'>
+                  <img src='style/images/programs/notekeep.png' class='d-block img-fluid' alt='Titanic ANN (Java)' title='Titanic ANN (Java)'>
+                </a>
+                <div id='carousel-caption' class='carousel-caption'>
+                  <h5>NoteKeep</h5>
+                  (JavaScript)<br>
+                  <p>
+                    A single-page application for taking secure notes in a browser, with everything saved in local storage right in the user's profile.
+                    Fully featured and includes:<br>
+                    additional encryption, login/logout authentication, import, export, folder organization, and more.<br>
+                    <div class='row'>
+                      <div class='col-6 text-right'>
+                        <a href='https://github.com/nlo-portfolio/notekeep' target='_blank' rel='external' class='pr-4'>SOURCE</a>
+                      </div>
+                      <div class='col-6 text-left'>
+                        <a href='https://nlo-portfolio.github.io/notekeep' target='_blank' rel='external' class='pl-4'>LIVE DEMO</a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class='carousel-item'>
+                <a href='https://github.com/nlo-portfolio/poker-prng' target='_blank' rel='external'>
+                  <img src='style/images/programs/poker-prng.png' class='d-block img-fluid' alt='Poker (Python)' title='Poker (Python)'>
+                </a>
+                <div id='carousel-caption' class='carousel-caption'>
+                  <h5>Poker</h5>
+                  (Python)<br>
+                  <p>
+                    This application features a random number distribution evaluator as well as poker hand evaluation for Five-Card Draw and Texas Hold 'Em.<br>
+                    Features real-time PRNG analysis at ~2.5k+ hands per second (in a VM on a slow computer) as well as a custom scoring system.<br>
+                    <div class='row'>
+                      <div class='col-6 text-right'>
+                        <a href='https://github.com/nlo-portfolio/poker-prng' target='_blank' rel='external' class='pr-4'>SOURCE</a>
+                      </div>
+                      <div class='col-6 text-left'>
+                        <a href='https://github.com/nlo-portfolio/poker-prng/blob/master/docker-compose.yml' target='_blank' rel='external' class='pl-4'>DOCKER</a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class='carousel-item'>
+                <a href='https://github.com/nlo-portfolio/slo-lo' target='_blank' rel='external'>
+                  <img src='style/images/programs/slo-lo.png' class='d-block img-fluid' alt='Slo-Lo (Ruby)' title='Slo-Lo (Ruby)'>
+                </a>
+                <div id='carousel-caption' class='carousel-caption'>
+                  <h5>Slo-Lo</h5>
+                  (Ruby)<br>
+                  <p>
+                    A multi-target implementation of the Slowloris HTTP DoS attack, which keeps a large number of slow connections open to a server preventing it from
+                    responding to other requests. Allows the user to attack multiple hosts simultaneously in separate threads.<br>
+                    <div class='row'>
+                      <div class='col-6 text-right'>
+                        <a href='https://github.com/nlo-portfolio/slo-lo' target='_blank' rel='external' class='pr-4'>SOURCE</a>
+                      </div>
+                      <div class='col-6 text-left'>
+                        <a href='https://github.com/nlo-portfolio/slo-lo/blob/master/docker-compose.yml' target='_blank' rel='external' class='pl-4'>DOCKER</a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class='carousel-item'>
+                <a href='https://github.com/nlo-portfolio/titanic-ann' target='_blank' rel='external'>
+                  <img src='style/images/programs/titanic-ann.png' class='d-block img-fluid' alt='Titanic ANN (Java)' title='Titanic ANN (Java)'>
+                </a>
+                <div id='carousel-caption' class='carousel-caption'>
+                  <h5>Titanic ANN</h5>
+                  (Java)<br>
+                  <p>
+                    Titanic-ANN (Artificial Neural Network) is an artificial learning exercise using the Encog ML Framework and statistical data from the sinking of
+                    the RMS Titanic in 1912 to backpropagate the error in passenger survival predictions.<br>
+                    <div class='row'>
+                      <div class='col-6 text-right'>
+                        <a href='https://github.com/nlo-portfolio/titanic-ann' target='_blank' rel='external' class='pr-4'>SOURCE</a>
+                      </div>
+                      <div class='col-6 text-left'>
+                        <a href='https://github.com/nlo-portfolio/titanic-ann/blob/master/docker-compose.yml' target='_blank' rel='external' class='pl-4'>DOCKER</a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class='carousel-item'>
+                <a href='https://github.com/nlo-portfolio/live-ciphers' target='_blank' rel='external'>
+                  <img src='style/images/programs/live-ciphers.png' class='d-block img-fluid' alt='Live Ciphers (JavaScript)' title='Live Ciphers (JavaScript)'>
+                </a>
+                <div id='carousel-caption' class='carousel-caption'>
+                  <h5>Live Ciphers</h5>
+                  (JavaScript)<br>
+                  <p>
+                    Demonstrates in-browser cryptography using CryptoJS. Includes live encryption and decryption as you type as
+                    well as a scrolling pseudo random number generator.<br>
+                    Features common algorithms: AES, DES, 3DES, Rabbit, RC4/Drop (not all secure).<br>
+                    <div class='row'>
+                      <div class='col-6 text-right'>
+                        <a href='https://github.com/nlo-portfolio/live-ciphers' target='_blank' rel='external' class='pr-4'>SOURCE</a>
+                      </div>
+                      <div class='col-6 text-left'>
+                        <a href='https://nlo-portfolio.github.io/live-ciphers' target='_blank' rel='external' class='pl-4'>LIVE DEMO</a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class='carousel-item'>
+                <a href='https://github.com/nlo-portfolio/uptime' target='_blank' rel='external'>
+                  <img src='style/images/programs/uptime.png' class='d-block img-fluid' alt='Uptime (Python)' title='Uptime (Python)'>
+                </a>
+                <div id='carousel-caption' class='carousel-caption'>
+                  <h5>Uptime</h5>
+                  (Python)<br>
+                  <p>
+                    Tracks the uptime for a list of websites, for use in a dedicated devops console.<br>
+                    Features a display of website uptime (as a percentage) and blinking alerts for down sites.<br>
+                    <div class='row'>
+                      <div class='col-6 text-right'>
+                        <a href='https://github.com/nlo-portfolio/uptime' target='_blank' rel='external' class='pr-4'>SOURCE</a>
+                      </div>
+                      <div class='col-6 text-left'>
+                        <a href='https://github.com/nlo-portfolio/uptime/blob/master/docker-compose.yml' target='_blank' rel='external' class='pl-4'>DOCKER</a>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div> 
+            </div>
+
+            <a class='carousel-control-prev' data-target='#code-carousel' role='button' data-slide='prev'>
+              <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+              <span class='sr-only'>Previous</span>
+            </a>
+            <a class='carousel-control-next' data-target='#code-carousel' role='button' data-slide='next'>
+              <span class='carousel-control-next-icon' aria-hidden='true'></span>
+              <span class='sr-only'>Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id='categories' class='row justify-content-center m-auto w-100 h3 px-2 py-4 border-top border-white text-white'>
+        <div class='col-3 line-item' style='max-width: 100%;'>Security</div>
+        <div class='col-3 line-item' style='max-width: 100%;'>Backend</div>
+        <div class='col-3 line-item' style='max-width: 100%;'>Frontend</div>
+        <div class='col-3 line-item' style='max-width: 100%;'>Networking</div>
+      </div>
+
+      <div id='technologies' class='row justify-content-center m-auto w-100 h3 px-2 py-4 border-top border-white'>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/rails.png' class='icons' alt='Ruby on Rails' title='Ruby on Rails' style='width:72px;max-width:100%;position:inherit;top:5px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/nodejs.png' class='icons' alt='Node.js' title='Node.js' style='max-width:100%;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/jquery.png' class='icons' alt='jQuery' title='jQuery' style='width:42px;max-width:100%;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/html.png' class='icons' alt='HTML' title='HTML' style='width:55px;max-width:100%;position:inherit;bottom:7px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/css.png' class='icons' alt='CSS' title='CSS' style='width:38px;max-width:100%;position:inherit;bottom:7px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/git.png' class='icons' alt='Git' title='Git' style='width:45px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/docker.png' class='icons' alt='Docker' title='Docker' style='width:60px;max-width:100%;position:inherit;bottom:10px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/mysql.png' class='icons' alt='MySQL' title='MySQL' style='width:80px;max-width:100%;position:inherit;bottom:10px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/selenium.png' class='icons' alt='Selenium WebDriver' title='Selenium WebDriver' style='max-width:100%;position:inherit;top:2px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/mocha.png' class='icons' alt='Mocha' title='Mocha' style='width:48px;max-width:100%;position:inherit;bottom:2px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/jmeter.png' class='icons' alt='Apache JMeter' title='Apache JMeter' style='width:55px;max-width:100%;position:inherit;bottom:8px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/jenkins.png' class='icons' alt='Jenkins' title='Jenkins' style='width:64px;max-width:100%;position:inherit;bottom:2px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/windows.png' class='icons' alt='Windows NT' title='Windows NT' style='width:45px;max-width:100%;position:inherit;top:0px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/ubuntu.png' class='icons' alt='Ubuntu' title='Ubuntu' style='width:58px;max-width:100%;position:inherit;bottom:7px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/wireshark.png' class='icons' alt='Wireshark' title='Wireshark' style='width:42px;max-width:100%;position:inherit;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/owasp.png' class='icons' alt='OWASP ZAP' title='OWASP ZAP' style='max-width:100%;position:inherit;top:2px;'>
+        </div>
+        <div class='col-auto pt-4 px-5'>
+          <img src='style/images/technologies/ossec.png' class='icons' alt='OSSEC' title='OSSEC' style='width:75px;max-width:100%;position:inherit;top:7px;'>
+        </div>
+      </div>
+
+      <!--  Ensure background extends to the bottom of screen in portrait mode. -->
+      <div id='paddingRow' class='row'>
+      </div>
+    </div>
+  </body>
+</html>

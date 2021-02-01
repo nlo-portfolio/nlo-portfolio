@@ -1,0 +1,86 @@
+body {
+  /* min-width: 1200px; */
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+}
+
+.carousel {
+  max-height: 600px;
+  min-height: 600px;
+  padding: 5% 0;
+}
+
+.carousel-inner {
+  max-height: 600px;
+  min-height: 600px;
+}
+
+.img-fluid {
+  width: 100%;
+  min-height: 400px !important;
+  max-height: 400px !important;
+}
+.carousel-control-next {
+  margin-right: -20%;
+}
+
+.carousel-control-prev {
+  margin-left: -20%;
+}
+
+#carousel-caption {
+  line-height: 24px;
+  font-size: 15px;
+  left: 0;
+  bottom: -170px;
+  width:100%;
+  display: block;
+  background: #2C2C2C;
+  padding-top: 2%;
+  padding-bottom: 6%;
+}
+
+#carousel-indicators {
+  bottom: -70px;
+  padding-bottom: 70px;
+}
+
+.languages {
+  width: 50%;
+  margin: auto;
+  size:40px;
+}
+
+.icons {
+  width: 38px;
+  padding: 15px 0;
+}
+
+.title {
+  color: white;
+}
+
+ul {
+  text-align: justify;
+  width: 50%;
+}
+
+.line-item {
+  max-width: 100%;
+  font-size: 24px;
+  padding: 10 0;
+  /*width: 46px;*/
+  text-align: center;
+}
+
+a, a:hover, a:active, a:visited { color: white; }
+
+.links {
+  color: white;
+  font-size: 24px;
+}
